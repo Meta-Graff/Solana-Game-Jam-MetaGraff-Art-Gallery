@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaGraff Art Gallery - Interactive Wireframes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MetaGraff Art Gallery</h1>
+            <p>Interactive Wireframe Presentation</p>
+        </header>
+
+        <nav class="wireframe-nav">
+            <button class="nav-btn active" data-section="react">React Components</button>
+            <button class="nav-btn" data-section="unity">Unity Game UI</button>
+            <button class="nav-btn" data-section="flow">User Flow</button>
+        </nav>
+
+        <!-- React Components Section -->
+        <section id="react" class="wireframe-section active">
+            <h2>React UI Components</h2>
+            
+            <div class="wireframe-group">
+                <h3>1. Landing/Authentication Page</h3>
+                <div class="wireframe-container">
+                    <div class="wireframe-box landing-page">
+                        <div class="title">VR Gallery</div>
+                        <div class="auth-buttons">
+                            <button class="primary-btn">Sign In / Register Wallet</button>
+                            <button class="secondary-btn">About</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wireframe-group">
+                <h3>2. Main Dashboard</h3>
+                <div class="wireframe-container">
+                    <div class="wireframe-box dashboard">
+                        <div class="title">User Dashboard</div>
+                        <div class="nav-section">
+                            <button class="nav-btn-small">Profile</button>
+                            <button class="nav-btn-small">NFT Market</button>
+                        </div>
+                        <div class="launch-section">
+                            <p>Launch Experience:</p>
+                            <button class="launch-btn vr">VR Mode</button>
+                            <button class="launch-btn desktop">Desktop Mode</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Unity Game UI Section -->
+        <section id="unity" class="wireframe-section">
+            <h2>Unity Game UI Components</h2>
+            
+            <div class="wireframe-group">
+                <h3>3. Multiplayer World Canvas</h3>
+                <div class="wireframe-container">
+                    <div class="wireframe-box solo-mode">
+                        <div class="title">Multiplayer world canvas</div>
+                        <div class="lobby-buttons">
+                            <button class="lobby-btn join-lobby">Join Lobby</button>
+                            <button class="lobby-btn leave-lobby">Leave Lobby</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wireframe-group">
+                <h3>4. VR Controller Wrist Quick Menu</h3>
+                <div class="vr-menu-grid">
+                    <!-- Main Menu -->
+                    <div class="vr-menu-tab">
+                        <h4>Main Menu</h4>
+                        <div class="wireframe-box vr-menu">
+                            <div class="title">VR Quick Menu</div>
+                            <div class="vr-buttons">
+                                <button class="vr-btn">🖌️ Paint</button>
+                                <button class="vr-btn">🎤 Audio</button>
+                                <button class="vr-btn">🚪 Lobby</button>
+                                <button class="vr-btn">👤 Avatar</button>
+                                <button class="vr-btn">⚙️ Settings</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Paint Tab -->
+                    <div class="vr-menu-tab">
+                        <h4>Paint Tab</h4>
+                        <div class="wireframe-box vr-menu">
+                            <div class="title">🖌️ Painting Settings</div>
+                            <div class="setting-item">
+                                <label>Brush Size:</label>
+                                <div class="slider">○●○○○</div>
+                            </div>
+                            <div class="setting-item">
+                                <label>Color:</label>
+                                <div class="color-wheel">[Color Wheel]</div>
+                            </div>
+                            <button class="back-btn">Back</button>
+                        </div>
+                    </div>
+
+                    <!-- Audio Tab -->
+                    <div class="vr-menu-tab">
+                        <h4>Audio Tab</h4>
+                        <div class="wireframe-box vr-menu">
+                            <div class="title">🎤 Audio Settings</div>
+                            <div class="setting-item">
+                                <label>Microphone:</label>
+                                <button class="toggle-btn">On/Off</button>
+                            </div>
+                            <div class="setting-item">
+                                <label>Volume:</label>
+                                <div class="volume-bar">████████░░</div>
+                            </div>
+                            <button class="back-btn">Back</button>
+                        </div>
+                    </div>
+
+                    <!-- Lobby Tab -->
+                    <div class="vr-menu-tab">
+                        <h4>Lobby Tab</h4>
+                        <div class="wireframe-box vr-menu">
+                            <div class="title">🚪 Lobby Settings</div>
+                            <div class="status">Current: Solo Mode</div>
+                            <div class="lobby-actions">
+                                <button class="lobby-btn">Join Random Lobby</button>
+                                <button class="lobby-btn">Leave Lobby</button>
+                            </div>
+                            <button class="back-btn">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wireframe-group">
+                <h3>5. NFT Artwork Details</h3>
+                <div class="wireframe-container">
+                    <div class="wireframe-box nft-details">
+                        <div class="title">Artwork Details</div>
+                        <div class="nft-info">
+                            <p>Artist: Cool_Artist ✓</p>
+                            <p>Owner: 0x1234...</p>
+                            <p>Price: ◎ 2.5 SOL</p>
+                        </div>
+                        <div class="nft-actions">
+                            <button class="details-btn">View More Details Canvas</button>
+                            <button class="buy-btn">Buy Now</button>
+                            <button class="offer-btn">Make Offer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wireframe-group">
+                <h3>6. Collaborative Painting Canvas</h3>
+                <div class="wireframe-container">
+                    <div class="wireframe-box collab-canvas">
+                        <div class="title">Building Wall Canvas</div>
+                        <div class="canvas-area">
+                            <div class="canvas-placeholder">[Live Collaborative Painting]</div>
+                            <p>Multiple users with graffiti cans painting simultaneously</p>
+                            <p><em>Uses graffiti-can prefab</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Flow Section -->
+        <section id="flow" class="wireframe-section">
+            <h2>User Flow Diagram</h2>
+            <div class="flow-container">
+                <div class="flow-diagram">
+                    <div class="flow-step">
+                        <div class="flow-box react">React Landing</div>
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box react">Wallet Auth</div>
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box react">Dashboard</div>
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box unity">Unity Auto-Solo</div>
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box unity">Optional Multiplayer</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>UI flows from React authentication → Dashboard → Unity auto-solo → Optional multiplayer</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "metagraff-wireframes",
+  "version": "1.0.0",
+  "description": "Interactive wireframe generator for MetaGraff Art Gallery - Web3 VR Art Gallery",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/wireframes.html",
+    "dev": "live-server --port=3000 --open=/wireframes.html --watch=.",
+    "build": "echo 'Static files ready for deployment'"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": [
+    "wireframe",
+    "ui",
+    "web3",
+    "vr",
+    "nft"
+  ],
+  "author": "ACAB Team",
+  "license": "MIT"
+}
